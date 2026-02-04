@@ -9,3 +9,15 @@ function summation(num1, num2) {
 }
 summation(11, 13);
 summation(10, 20);
+
+//////////////////////////////////////////////////
+
+/* return is used to get the value in return so that we can reuse it for further operation*/
+
+function doSum(num1, num2, num3) {
+  let sum = num1 + num2 + num3;
+  return sum;
+}
+let total = doSum(2, 4, 4);
+let multiplication = total * 5;
+console.log(multiplication);
